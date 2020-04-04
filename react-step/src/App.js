@@ -39,7 +39,7 @@ class App extends Component {
                     <div className="header">
                         <div className="logo">
                             <Link to='/'>
-                                < img className={'logo-img'} alt={'Logo'}/>
+                                < img src={require('./img/logo.png')}  className={'logo-img'} alt={'Logo'}/>
                             </Link>
                         </div>
                         <nav>
