@@ -1,0 +1,11 @@
+{
+  "name": "json_server",
+  "version": "1.0.0",
+  "description": "fake_server",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "shohrat",
+  "license": "ISC"
+}

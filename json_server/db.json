@@ -1,0 +1,116 @@
+{
+    "notes":[
+        {
+            "id":"1",
+            "title":"Go to school",
+            "text":"I am planning to go to school tomorrow",
+            "completed":"true",
+            "color":"#87E752"
+        },
+        {
+            "id":"2",
+            "title":"Go to work",
+            "text":"FSFSFSDFSD FSDKFSD  SDFS FSDFSDF  SFSD SD SDF SDF",
+            "completed":"true",
+            "color":"#87E752"
+
+        },
+        {
+            "id":"3",
+            "title":"Go to gym",
+            "text":"SDFSDF SDFS SDFFS SF SDFcsd fsdf sd fsdf sf ",
+            "completed":"true",
+            "color":"#87E752"
+
+
+        },
+        {
+            "id":"4",
+            "title":"Go to run",
+            "text":"Ssaf s D SDSF SDFSDF SF FSD SF ",
+            "completed":"true",
+            "color":"#87E752"
+
+        },
+        {
+            "id":"5",
+            "title":"Go to swim",
+            "text":"SFS  DFS FSD SDF SDFSD FDSF SDF SD",
+            "completed":"true",
+            "color":"#FF37A6"
+
+        },
+        {
+            "id":"6",
+            "title":"Go to play",
+            "text":"sdas sfsfsdfsdfsdf fsdfdsf fsdfsdfs",
+            "completed":"true",
+            "color":"#FF37A6"
+        },
+        {
+            "id":"7",
+            "title":"Go to ted",
+            "text":"sdf sdfdfsdfsdfs fsdfsdfsdfsdfsd fsdfsdfsdfsdfsd fsdfsdfsd",
+            "completed":"true",
+            "color":"#FF37A6"
+
+        },
+        {
+            "id":"8",
+            "title":"Go to bed",
+            "text":"fdsfsd fsdfsdfsdfsdf sdfsdfsd fsdfsdfsdfsd fsdfsd",
+            "completed":"true",
+            "color":"#A38195"
+
+        },
+        {
+            "id":"9",
+            "title":"Go to hospital",
+            "text":"dsf fdfdfgdfgdf gdfgdfgdfgdfgdfgdfg dggdfgdfgdfgdfgdfgdg",
+            "completed":"false",
+            "color":"#A38195"
+
+        },
+        {
+            "id":"10",
+            "title":"Go to drive",
+            "text":"Isdas dsdsfs fsdf fdfgdfgdfgdfg gddfgdfgdfgdf gdfgtomorrow",
+            "completed":"false",
+            "color":"#A38195"
+
+        },
+        {
+            "id":"11",
+            "title":"Go to ride",
+            "text":"das assdasdasdasdasd asdasd assdas das ddasdas da das d",
+            "completed":"false",
+            "color": "#49F4F1"
+
+        },
+        {
+            "id":"12",
+            "title":"Go to bike",
+            "text":"dasdas dassdasd dasdas dasd anmdbdb hjabdjsbdj bbds",
+            "completed":"false",
+            "color": "#49F4F1"
+
+        },
+        {
+            "id":"13",
+            "title":"Go to clean",
+            "text":"dasndkasndknas asdksndns nfjksnjksnjkd sdfnsdfnjksdnfjksdnjkfns",
+            "completed":"false",
+            "color": "#49F4F1"
+
+        },
+        {
+            "id":"14",
+            "title":"Go to fly",
+            "text":"djkasndjsndj snsn fjskfj as jkfjksdnf snjkfsd nfkjsnf ",
+            "completed":"false",
+            "color": "#49F4F1"
+
+        }
+        
+    ]
+}
