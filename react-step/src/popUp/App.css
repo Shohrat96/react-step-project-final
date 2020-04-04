@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.app-nav{
+  list-style:none;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  background: brown;
+  padding: 10px 15px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.app-nav >a{
+  list-style:none;
+  text-decoration: none;
+  color: white;
+}

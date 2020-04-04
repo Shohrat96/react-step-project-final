@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    border: 1px solid red;
+    background: grey;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 120px; 
+    height: 50px;
+    word-break: break-word;
+    border: none;
+    margin-right: 10px;
+    /*background: #b3382c;*/
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.modalWindowWrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+.modalWindow{
+    width: 516px;
+    height: 252px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    /*background: #e74c3c;*/
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+.modalWindow-title{
+    background: #d44637;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+.modalWindow p{
+    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+.close-button{
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.second-modal-close{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.modal-window-main-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+}
