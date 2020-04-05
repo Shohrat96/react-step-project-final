@@ -61,20 +61,26 @@ class Edit extends Component {
         fetch(`http://localhost:3000/notes/${this.state.editedNoteData.id} `, {
             
             method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json',
+            },
             body: JSON.stringify({
                 title: title,
                 text: text,
-                color: this.state.backColor !== '' ? this.state.backColor : this.state.editedNoteData.color,
+                color: this.state.backColor !== '' ? this.state.backColor : this.state.editedNoteData.color, //test
             }),
-            headers: {
-                'Content-Type': 'application/json charset=UTF-8',
-            }
+
         })
-            .then(response => response.json())
-            .then(result => console.log(result,'here should be result'));
-        this.setState({
-            redirectTo: true
-        })
+            .then((response) => response.json())
+            .then((data) => {
+            console.log('Success:', data);
+            })
+            .catch((error) => {
+            console.error('Error:', error);
+            });
+            this.setState({
+                redirectTo:true
+            })
     };
 
     render() {
