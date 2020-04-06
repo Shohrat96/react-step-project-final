@@ -90,8 +90,8 @@ class Create extends Component {
             <div className='createNewNote'>
                 <h1 className='createNewNote-title'>Fill data</h1>
                 <form  className='newNoteItem' onSubmit={this.createNoteHandler} onClick={this.colorChangeHandler}>
-                    <input style={{backgroundColor:this.state.backColor}} ref={this.titleInput} className='newNoteItem-title' type='text' placeholder='Title'></input>
-                    <textarea style={{backgroundColor:this.state.backColor}} ref={this.textInput} className='newNoteItem-text' type='text' placeholder='Note text'></textarea>
+                    <input style={{backgroundColor:this.state.backColor}} ref={this.titleInput} maxLength='20' className='newNoteItem-title' type='text' placeholder='Title. Max character limit: 20'></input>
+                    <textarea style={{backgroundColor:this.state.backColor}} ref={this.textInput} maxLength='350' className='newNoteItem-text' type='text' placeholder='Note text. Max character limit: 350'></textarea>
                     <div className='newNoteItem-color'>
                         <label className='newNoteItem-color-label'>Color</label>
                         <div className='newNoteItem-color-wrapper'>

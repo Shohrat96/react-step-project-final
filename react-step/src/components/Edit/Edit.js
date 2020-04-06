@@ -43,7 +43,6 @@ class Edit extends Component {
 
     // Function for creating new note
     createNoteHandler = (e) => {
-        alert('hello');
         e.preventDefault();
         // console.log(this.idCreateHandler());
         let title = this.titleInput.current.value;
