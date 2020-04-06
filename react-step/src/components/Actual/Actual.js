@@ -27,13 +27,9 @@ class Actual extends Component {
                             return (
                                 <Link to={{
                                     pathname: `/note/${noteItem.id}`,
-                                    state: {
-                                        id: noteItem.id
-                                    }
                                 }}
                                       key={noteItem.id}>
-                                    <NoteItem onclick={this.checkClickedNote}
-                                              title={noteItem.title}
+                                    <NoteItem title={noteItem.title}
                                               text={noteItem.text}
                                               color={noteItem.color}
                                               id={noteItem.id}/>

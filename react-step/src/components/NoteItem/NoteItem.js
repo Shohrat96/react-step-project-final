@@ -5,19 +5,6 @@ import './NoteItem.scss'
 class NoteItem extends Component {
     constructor(props){
         super(props);
-            this.state={
-            maxTextLimitReach:false,
-            textAreaText:this.textInput.value
-        }
-    this.textInput=React.createRef();
-    }
-
-
-    textOnchange=(e)=>{
-        let text=this.textInput.current.value;
-        if (text.length>300){
-            this.textInput.current.value=text+'...'
-        }
     }
 
     render() {
@@ -26,8 +13,10 @@ class NoteItem extends Component {
                 <div className='noteItem-title'>
                     {this.props.title}
                 </div>
-                <p ref={this.textInput} className='noteItem-text' onKeyUp={this.textOnchange}>
-                    {this.props.text}
+                <p ref={this.textField} className='noteItem-text'>
+                    {
+                        this.props.text.length<200 ? this.props.text : this.props.text.slice(0,100)+' ...'
+                    }
                 </p>
             </div>
         );

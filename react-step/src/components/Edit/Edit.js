@@ -36,24 +36,12 @@ class Edit extends Component {
         }
     };
 
-    // Function for getting the id of the new note
-
-
-    // Function for getting the random color for note if the color is't choosing
-
     // Function for creating new note
     createNoteHandler = (e) => {
         e.preventDefault();
         // console.log(this.idCreateHandler());
         let title = this.titleInput.current.value;
         let text = this.textInput.current.value;
-        // const newItem = {
-        //     id: this.idCreateHandler(),
-        //     title: title,
-        //     text: text,
-        //       completed: "false",
-        //     color: this.state.backColor !== '' ? this.state.backColor : this.randomColorCreate(),
-        // };
 
         //make post request
         console.log('requested id',this.state.editedNoteData.id);

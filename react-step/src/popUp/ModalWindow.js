@@ -14,12 +14,8 @@ class ModalWindow extends Component{
                             <h1>{this.props.header}</h1>
                         </div>
                         {
-                            this.props.closeButton===true ?
-
-                                this.props.modalNum==='second' ? 
-                                <div className="close-button" ><img src={require('./img/close.png')} onClick={this.props.disableModal} className={'second-modal-close'} alt={'close-button'} width={'20'} height={'20'} style={{objectFit:"cover"}} /></div>
-                                : <div className="close-button" onClick={this.props.disableModal}>X</div>
-
+                            this.props.closeButton===true ? 
+                                <div className="close-button" onClick={this.props.disableModal}>X</div>
                                 : null
                         }
                     </div>

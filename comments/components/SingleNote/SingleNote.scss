@@ -1,0 +1,44 @@
+//Made by Ismayil
+.note{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  &-item{
+    width:200px;
+    height: 220px;
+    border-radius: 5px;
+
+    &-title{
+      text-align: center;
+      border-bottom: 1px solid black;
+    }
+
+    &-text{
+      text-align: center;
+      padding: 10px;
+    }
+  }
+}
+
+.buttons{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.archive-button, .edit-button,
+.delete-button{
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e8076;
+  cursor: pointer;
+}

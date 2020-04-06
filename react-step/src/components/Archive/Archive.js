@@ -31,7 +31,7 @@ class Archive extends Component {
                                     }
                                 }}
                                       key={noteItem.id}>
-                                    <NoteItem onclick={this.checkClickedNote}
+                                    <NoteItem 
                                               title={noteItem.title}
                                               text={noteItem.text}
                                               color={noteItem.color}

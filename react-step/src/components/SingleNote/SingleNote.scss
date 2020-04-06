@@ -14,11 +14,13 @@
     &-title{
       text-align: center;
       border-bottom: 1px solid black;
+      padding: 10px;
     }
 
     &-text{
       text-align: center;
       padding: 10px;
+      word-break: break-word;
     }
   }
 }
